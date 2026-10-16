@@ -29,12 +29,6 @@ $produk -> nama = "laptop";
 $produk -> harga = '10000000';
 $produk -> stok = '5';
 
-//hitung harga
-//$pajak = produk :: PAJAK * 100;
-//$jumlahpajak = $produk -> harga * produk::PAJAK;
-
-//total
-//$total = $produk -> harga * $jumlahpajak;
 
 //output
 echo "produk: ".$produk -> nama;
