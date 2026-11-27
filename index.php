@@ -2,15 +2,16 @@
 
 require('./PropertyConstant.php');
 
+use pbo\marketplace\jasa;
 use pbo\marketplace\produk;
 
 //object
-$produk = new produk();
+$produk = new Jasa();
 
 $produk -> setkode ('P0001') 
         -> setnama ('laptop')
         -> setharga (10000000)
-        -> setstok (5);
+        -> setstok (5); 
 
 //output
 echo "produk: ".$produk -> getNama();
